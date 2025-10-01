@@ -9,17 +9,20 @@ import net.minecraft.util.Identifier;
 import net.mustafahany.pizzamod.PizzaMod;
 
 public class ModItems {
-    public static final Item DOUGH_ITEM = regiserItem("dough", new Item(new Item.Settings()));
+    public static Item DOUGH;
 
-    private static Item regiserItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, Identifier.of(PizzaMod.MOD_ID), item);
+    @SuppressWarnings("unused")
+    private static Item registerItem(String name, Item item) {
+        return Registry.register(Registries.ITEM, Identifier.of(PizzaMod.MOD_ID, name), item);
     }
-
+    
     public static void registerModItems() {
-        PizzaMod.LOGGER.info("Registering Mod Items for" + PizzaMod.MOD_ID);
+        PizzaMod.LOGGER.info("Registering Mod Items for " + PizzaMod.MOD_ID);
+
+        DOUGH = registerItem("dough", new Item(new Item.Settings()));
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(DOUGH_ITEM);
+            entries.add(DOUGH);
         });
     }
 }
