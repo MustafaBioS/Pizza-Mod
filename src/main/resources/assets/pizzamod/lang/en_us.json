@@ -2,5 +2,10 @@
     "item.pizzamod.dough": "Dough",
     "item.pizzamod.tomato": "Tomato",
     "item.pizzamod.pizza_cutter": "Pizza Cutter",
-    "block.pizzamod.pizza": "Pizza"
+    "block.pizzamod.pizza": "Pizza",
+
+    "item.pizzamod.pizza_helmet": "Pizza Helmet",
+    "item.pizzamod.pizza_chestplate": "Pizza Chestplate",
+    "item.pizzamod.pizza_leggings": "Pizza Leggings",
+    "item.pizzamod.pizza_boots": "Pizza Boots"
 }
