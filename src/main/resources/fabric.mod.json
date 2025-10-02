@@ -1,31 +1,31 @@
 {
 	"schemaVersion": 1,
-	"id": "pizza-mod",
-	"version": "1.21.1",
+	"id": "pizzamod",
+	"version": "1.21",
 	"name": "Pizza Mod",
 	"description": "This is a pizza mod Minecraft mod where you can eat Pizzas!!",
 	"authors": [
 		"Mustafa Hany!"
 	],
 	"contact": {
-		"homepage": "https://mustafahany.net/",
+		"homepage": "https://mustafahany2.net/",
 		"sources": "https://github.com/MustafaBioS/Pizza-Mod"
 	},
 	"license": "CC0-1.0",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.mustafahany.pizzamod.PizzaMod"
+			"net.mustafahany2.pizzamod.PizzaMod"
 		],
 		"fabric-datagen": [
-			"net.mustafahany.pizzamod.PizzaModDataGenerator"
+			"net.mustafahany2.pizzamod.PizzaModDataGenerator"
 		],
 		"client": [
-			"net.mustafahany.pizzamod.PizzaModClient"
+			"net.mustafahany2.pizzamod.PizzaModClient"
 		]
 	},
 	"mixins": [
-		"pizza-mod.mixins.json"
+		"pizzamod.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.17.2",

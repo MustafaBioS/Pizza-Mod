@@ -1,0 +1,23 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "particle": "pizzamod:block/pizza1",
+    "bottom": "pizzamod:block/pizza1",
+    "top": "pizzamod:block/pizza1",
+    "side": "pizzamod:block/pizza1"
+  },
+  "elements": [
+    {
+      "from": [1, 0, 1],
+      "to": [15, 8, 15],
+      "faces": {
+        "down": { "texture": "#bottom", "cullface": "down" },
+        "up": { "texture": "#top" },
+        "north": { "texture": "#side" },
+        "south": { "texture": "#side" },
+        "west": { "texture": "#side" },
+        "east": { "texture": "#side" }
+      }
+    }
+  ]
+}

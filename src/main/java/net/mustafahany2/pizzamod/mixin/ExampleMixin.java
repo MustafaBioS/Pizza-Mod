@@ -1,4 +1,4 @@
-package net.mustafahany.pizzamod.mixin;
+package net.mustafahany2.pizzamod.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

@@ -1,4 +1,4 @@
-package net.mustafahany.pizzamod;
+package net.mustafahany2.pizzamod;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;

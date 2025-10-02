@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "bites=0": { "model": "pizzamod:block/pizza", "textures": { "top": "pizzamod:block/pizza1", "side": "pizzamod:block/pizza1", "bottom": "pizzamod:block/pizza1", "particle": "pizzamod:block/pizza1" } },
+    "bites=1": { "model": "pizzamod:block/pizza", "textures": { "top": "pizzamod:block/pizza2", "side": "pizzamod:block/pizza2", "bottom": "pizzamod:block/pizza2", "particle": "pizzamod:block/pizza2" } },
+    "bites=2": { "model": "pizzamod:block/pizza", "textures": { "top": "pizzamod:block/pizza3", "side": "pizzamod:block/pizza3", "bottom": "pizzamod:block/pizza3", "particle": "pizzamod:block/pizza3" } },
+    "bites=3": { "model": "pizzamod:block/pizza", "textures": { "top": "pizzamod:block/pizza4", "side": "pizzamod:block/pizza4", "bottom": "pizzamod:block/pizza4", "particle": "pizzamod:block/pizza4" } },
+    "bites=4": { "model": "pizzamod:block/pizza", "textures": { "top": "pizzamod:block/pizza5", "side": "pizzamod:block/pizza5", "bottom": "pizzamod:block/pizza5", "particle": "pizzamod:block/pizza5" } },
+    "bites=5": { "model": "pizzamod:block/pizza", "textures": { "top": "pizzamod:block/pizza6", "side": "pizzamod:block/pizza6", "bottom": "pizzamod:block/pizza6", "particle": "pizzamod:block/pizza6" } },
+    "bites=6": { "model": "pizzamod:block/pizza", "textures": { "top": "pizzamod:block/pizza7", "side": "pizzamod:block/pizza7", "bottom": "pizzamod:block/pizza7", "particle": "pizzamod:block/pizza7" } },
+    "bites=7": { "model": "pizzamod:block/pizza", "textures": { "top": "pizzamod:block/pizza8", "side": "pizzamod:block/pizza8", "bottom": "pizzamod:block/pizza8", "particle": "pizzamod:block/pizza8" } }
+  }
+}

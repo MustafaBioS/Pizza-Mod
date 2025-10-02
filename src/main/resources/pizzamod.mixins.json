@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "net.mustafahany.pizzamod.mixin",
+	"package": "net.mustafahany2.pizzamod.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin"
